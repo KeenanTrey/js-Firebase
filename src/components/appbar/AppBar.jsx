@@ -9,6 +9,9 @@ const AppStyle = styled.nav`
     ul{
         display:flex;
         justify-content: center;
+        align-items: center;
+        height: 64px;
+        padding: 1rem;
     }
     li{
         margin: 0 1rem 0;
@@ -26,6 +29,7 @@ const AppBar = () => {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/login">Login</Link></li>
                 <li><Link to="/register">Register</Link></li>
+                <li><Link to="/dashboard">Dashboard</Link></li>
             </ul>
         </AppStyle>
         
