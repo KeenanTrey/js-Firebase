@@ -5,7 +5,7 @@
  import RegisterPage from './pages/RegisterPage'
  import NotFound from './pages/404'
  import AppBar from './components/appbar/AppBar'
- import Dashboard from './components/dashboard/Dashboard'
+ import DashBoard from './pages/dashboard/DashBoard'
  import AuthContext, {AuthProvider} from './auth/AuthContext'
 function App() { 
 
@@ -17,7 +17,7 @@ function App() {
           <Route exact path="/"><HomePage/></Route>
           <Route exact path="/login"><LoginPage/></Route>
           <Route exact path="/register"><RegisterPage/></Route>
-          <Route exact path="/dashboard"><Dashboard/></Route>
+          <Route exact path="/dashboard"><DashBoard/></Route>
           <Route exact path="*"><NotFound/></Route>
         </Switch>
       </Router>
