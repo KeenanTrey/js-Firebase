@@ -29,8 +29,8 @@ const LoginPageStyles = styled.div`
 const LoginPage = (props) => {
  
   const auth = useContext(AuthContext)
-  const [email, setEmail] = useState("james@home.com");
-  const [password, setPassword] = useState("123456");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [isValid, setIsValid] = useState(false);
 
 
